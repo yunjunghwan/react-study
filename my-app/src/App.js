@@ -24,7 +24,7 @@ function App() {
   const LineButton = styled(ButtonStyle)`
     border: 1px solid gray;
   `;
-  const SolidButton = styled(ButtonStyle)`
+  const SolidButton = styled(ButtonStyle)` 
     background-color: skyblue;
     ${props => props.primary && css`
       background-color: green;
